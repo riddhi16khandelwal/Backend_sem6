@@ -15,4 +15,6 @@ const fs = require('fs');
 // });
 // fs.appendFileSync("./abes.text",` PHD`);
 
-fs.cpSync("./abes.text","./a1.text");
+// fs.cpSync("./abes.text","./a1.text");
+
+fs.unlinkSync("./abes.text"); // to delete file 
